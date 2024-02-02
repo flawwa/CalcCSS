@@ -1,0 +1,76 @@
+.root{
+    -fx-background-color: #000000;
+    -fx-font-family: monospace;
+    -fx-hgap: 5px;
+    -fx-vgap: 5px;
+    -fx-padding: 5px;
+    -fx-background-insets: 0px;
+}
+.text-field{
+    -fx-font-color: lightgray;
+    -fx-text-fill: lightgray;
+    -fx-text-alignement: RIGHT;
+    -fx-font-weight: bold;
+    -fx-font-size: 25pt;
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+}
+.button{
+    -fx-font-size: 16pt;
+    -fx-background-radius: 0px;
+    -fx-background-inset: 0px;
+    -fx-text-fill: white;
+    -fx-background-color: darkgrey;
+    -fx-background-insets: 0px;
+    -fx-background-radius: 5em;
+}
+.button:focused{
+    -fx-border-color: white;
+    -fx-border-insets: 0px;
+    -fx-border-radius: 5em;
+}
+.button:armed{
+    -fx-border-color: yellow;
+}
+.numeric{
+    -fx-text-fill: white;
+}
+.numeric:hover{
+    -fx-text-fill: darkgrey;
+    -fx-background-color: white;
+ }
+ .numeric:pressed{
+    -fx-text-fill: lightgrey;
+    -fx-background-color: black;
+ }
+.reinicio{
+    -fx-text-fill: black;
+    -fx-background-color: lightgray;
+}
+.reinicio:hover{
+    -fx-background-color: white;
+}
+.reinicio:pressed{
+    -fx-text-fill: lightgrey;
+    -fx-background-color: black;
+}
+.operacion{
+    -fx-text-fill: white;
+    -fx-background-color: orange;
+}
+
+.operacion:hover{
+    -fx-text-fill: white;
+    -fx-background-color: darkorange;
+}
+.operacion:pressed{
+    -fx-text-fill: orange;
+    -fx-background-color: white;
+}
+#igualButton{
+    -fx-text-fill: white;
+    -fx-background-color: darkorange;
+}
+#igualButton:hover{
+    -fx-background-color: orangered;
+}
